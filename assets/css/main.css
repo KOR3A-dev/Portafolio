@@ -27,7 +27,7 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: grid;}
 
 body {
 	line-height: 1;
@@ -2409,6 +2409,15 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Video */
+   .videoproyect{
+      display: grid;
+	  gap:1rem;
+	  grid-auto-rows: 22rem;
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+   }
+
 /* Image */
 
 	.image {
@@ -2462,6 +2471,8 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+
 
 /* List */
 
@@ -3004,6 +3015,7 @@ input, select, textarea {
 	}
 
 		.features article {
+			grid-column:  span 2;
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: #353849;
 			border-radius: 5px;
@@ -3015,7 +3027,8 @@ input, select, textarea {
 				margin-right: 0;
 			}
 
-			.features article .image {
+			.features article .videoproyect {
+				grid-column:  span 2;
 				border-radius: 5px 5px 0 0;
 				display: block;
 				margin-bottom: 1.75em;
@@ -3025,7 +3038,7 @@ input, select, textarea {
 				width: calc(100% + 3.5em);
 			}
 
-				.features article .image img {
+				.features article .videoproyect {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
 				}
@@ -3047,7 +3060,7 @@ input, select, textarea {
 				width: calc(50% - 0.875em - 1px);
 			}
 
-				.features article .image {
+				.features article .videoproyect {
 					margin-bottom: 1.5em;
 					margin-left: -1.5em;
 					margin-top: -1.5em;
@@ -3059,7 +3072,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features {
-				display: block;
+				display: grind;
 			}
 
 				.features article {
