@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url('https://fonts.googleapis.com/css?family=Barrio|Montserrat:700');
 
 /*
 	Solid State by HTML5 UP
@@ -4166,7 +4166,104 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+		#two .img{
+			float: left;
+			width: 100%;
+			height: 30%;
+			margin-bottom:20px ;
+		}
+		body div h2 img{
+			padding:8%;
+			margin: 6%;
+			font-size: 30px;
+		}
+
+		#four .inner{
+			padding:8%;
+			margin: 6%;
+		}
+		
+
+		p{
+			padding:3%;
+			margin: 7%;
+		}
+
+		#footer #email{
+			font-size: 13px;
+			position: relative;
+			left: -37px;
+		}
+		#banner .logo{
+			position: absolute;
+			top: 140px;
+		}
+		#banner h4{
+			font-size:12px;
+		}
+		#banner h6{
+			font-size:12px;
+			position: absolute;
+			left:40px;
+		}
+		#inn .fas{
+			display: none;
+		}
+		#inn #tryhack{
+			border-bottom: none;
+		}
+
 	}
+
+	@media screen and (max-width: 411px) {
+
+		#inn .img{
+			float: left;
+			width: 100%;
+			margin-bottom:20px ;
+		}
+
+		#two .img{
+			float: left;
+			width: 80%;
+			height:30%;
+			margin-bottom:20px;
+		}
+		#banner .logo{
+			position: absolute;
+			top: 100px;
+		}
+		#banner h2{
+			position: absolute;
+			top: 95px;
+		}
+		#inn .fas{
+			display: none;
+		}
+
+
+	}
+
+	#inn #btn-laravel{
+		color: #fff;
+	}
+
+	#inn #btn-laravel:hover{
+		background-color: rgb(233, 27, 27);
+	}
+	#inn #btn-php{
+		color: #fff;
+	}
+	#inn #btn-php:hover{
+		background-color: rgb(14, 108, 250);
+	}
+	#banner .text{
+		text-align: center;
+		font-weight: 100;
+  		font-size: 28px;
+		color: #fff;
+	}
+
 
 
 
